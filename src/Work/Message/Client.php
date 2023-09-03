@@ -119,6 +119,15 @@ class Client extends BaseClient
         return $this->setRecipients($partyIds, 'toparty');
     }
 
+     /**
+     * @param array|string $userIds
+     * @return Client
+     */
+    public function toTag($userIds)
+    {
+        return $this->setRecipients($userIds, 'totag');
+    }
+
     /**
      * @param $agentId
      * @return $this
