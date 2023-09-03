@@ -1,5 +1,5 @@
 {
-    "name": "zuogechengxu/wechat",
+    "name": "parkerlu/wechat",
     "description": "Laravel Wechat SDK",
     "license": "MIT",
     "authors": [
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zuogechengxu\\Wechat\\": "src/"
+            "ParkerLu\\Wechat\\": "src/"
         }
     }
 }
